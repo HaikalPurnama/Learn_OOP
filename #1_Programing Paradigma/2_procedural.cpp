@@ -1,9 +1,13 @@
 #include <iostream>
 using namespace std;
 
-int main(){
+void add() {
     int x = 600;
     int y = 400;
-    cout <<  x + y;
+    cout << x + y;
+}
+
+int main(){
+    add();
     return 0;
 }
